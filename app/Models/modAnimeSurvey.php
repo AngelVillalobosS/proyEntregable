@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
-class anime_survey extends Model
+class modAnimeSurvey extends Model
 {
     use HasFactory;
 
@@ -15,5 +15,6 @@ class anime_survey extends Model
     protected $fillable = [
         'name_per', 'a_pa', 'a_ma', 'year', 'sexo', 'happiness', 'stars', 
         'requests', 'id_content', 'id_categorie', 'genre', 'studio', 
-        'suggestions', 'dev_comments', 'updated_at', 'created_at'];
+        'suggestions', 'dev_comments'
+    ];
 }
