@@ -138,7 +138,7 @@
                 <tr> <!-- 2nd CheckBox -->
                 <td> <h5>Seleccione el genero</h5>
                 @if($errors->first('genre'))
-                        <p class="text-warning">{{$errors->first('genre')}}</p>
+                    <p class="text-warning">{{$errors->first('genre')}}</p>
                 @endif
                 </td>
                     <td><input type="checkbox" class="form-check-input" name = 'genre', value = 'R'>
